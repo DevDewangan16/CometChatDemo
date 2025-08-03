@@ -16,6 +16,7 @@ navigationFragmentKtx = "2.8.0"
 
 cometchat-ui-kit = "5.1.0"
 cometchat-calls-sdk = "4.1.0"
+cometchat-core = "4.1.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -33,6 +34,8 @@ androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navi
 
 cometchat-ui-kit = { module = "com.cometchat:chat-uikit-android", version.ref = "cometchat-ui-kit" }
 cometchat-calls-sdk = { module = "com.cometchat:calls-sdk-android", version.ref = "cometchat-calls-sdk" }
+cometchat-core = { module = "com.cometchat:chat-sdk-android", version.ref = "cometchat-core" }
+
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

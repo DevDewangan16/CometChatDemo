@@ -59,4 +59,6 @@ dependencies {
 
     implementation(libs.cometchat.ui.kit)
     implementation(libs.cometchat.calls.sdk)
+    implementation("com.cometchat:chat-sdk-android:4.1.0")
+
 }

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CometChatDemo</string>
+    <string name="chats">Chats</string>
+    <string name="calls">Calls</string>
+    <string name="users">Users</string>
+    <string name="groups">Groups</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="welcome">Welcome</string>
+    <string name="error_no_user_or_group">Missing user ID or group ID</string>
+    <string name="error_user_not_found">Could not find user</string>
+    <string name="error_group_not_found">Could not find group</string>
 </resources>
