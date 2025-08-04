@@ -57,15 +57,4 @@ class AuthViewModel : ViewModel() {
             }
         }
     }
-
-    fun checkUserExists(uid: String, onResult: (Boolean) -> Unit) {
-        viewModelScope.launch {
-            try {
-                chatRepository.getUser(uid)
-                onResult(true)
-            } catch (e: Exception) {
-                onResult(false)
-            }
-        }
-    }
 }
