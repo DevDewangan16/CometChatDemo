@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.cometchat.chat.models.User
 import com.cometchat.chatuikit.users.CometChatUsers
 import com.example.cometchatdemo.R
 import com.example.cometchatdemo.ui.MainActivity
